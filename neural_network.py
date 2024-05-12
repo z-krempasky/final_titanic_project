@@ -129,7 +129,7 @@ sequential_model = keras.Sequential(
 sequential_model.compile(
     optimizer='adam',
     loss='binary_crossentropy',
-    metrics=['accuracy', f1_m, precision_m, recall_m]
+    metrics=['accuracy'] #f1_m, precision_m, recall_m#]
 )
 
 # Train Model

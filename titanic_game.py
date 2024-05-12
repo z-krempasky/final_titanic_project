@@ -1,4 +1,87 @@
 import tkinter as tk
+import tensorflow as tf
+import numpy as np
+import sys
+
+def loadModel():
+    # Load Crew Model
+    try:
+        crew_model = tf.keras.models.load_model("./models/crew_dataset.keras")
+        print("Crew Model loaded successfully.")
+    except Exception as e:
+        print("Error loading crew model:", e)
+        sys.exit(1)
+
+    # Load Passenger Model
+    try:
+        passenger_model = tf.keras.models.load_model("./models/passenger_dataset.keras")
+        print("Passenger Model loaded successfully.")
+    except Exception as e:
+        print("Error loading passenger model:", e)
+        sys.exit(1)
+
+    # Return Models
+    return passenger_model, crew_model
+
+def executeModel(p_model, c_model, gender, age, passenger_crew, class_type, children, parents, siblings, crew_pos):
+    # Format Inputs
+    # Gender
+    if (gender == 'Male'):
+        gender = 0
+    else:
+        gender = 1
+    
+    # Class Type
+    if (class_type == "First Class"):
+        class_type = 1
+    elif (class_type == "Second Class"):
+        class_type = 2
+    else: #Third Class
+        class_type = 3
+
+    # Crew Type
+    if (crew_pos == "Deck Hand"):
+        crew_pos = 0
+    elif (crew_pos == "Engineering Crew"):
+        crew_pos = 1
+    elif (crew_pos == "Restaurant Staff"):
+        crew_pos = 2
+    else: #Vict...
+        crew_pos = 3
+
+    # Combine/Convert Parents/Children
+    parents = int(parents) + int(children)
+
+    # Convert Siblings/Spouses
+    siblings = int(siblings)
+
+    # Convert Age
+    age = float(age)
+
+    # Passenger Model
+    if (passenger_crew == "Passenger"):
+        # Assemble Data
+        data = np.array([[class_type, gender, age, siblings, parents, 25, 0]])
+        # Make Predictions
+        try:
+            prediction = p_model.predict(data, verbose=0)
+            print("**********Prediction:", prediction)
+        except Exception as e:
+            print("Error making predictions:", e)
+            sys.exit(1)
+
+    else: # Crew Model
+        # Assemble Data
+        data = np.array([[gender, age, crew_pos, 0]])
+        # Make Predictions
+        try:
+            prediction = c_model.predict(data)
+            print("**********Prediction:", prediction)
+        except Exception as e:
+            print("Error making predictions:", e)
+            sys.exit(1)
+
+    return round(prediction[0][0])
 
 def getIntro(name, gender, age, position, cabin, children, parents, sibling, crew_pos):
     parentString = "0"
@@ -69,8 +152,7 @@ def getIntro(name, gender, age, position, cabin, children, parents, sibling, cre
 
     return outString
 
-
-def getOutro(name,gender,cabin,age, siblings,children,status,passenger_crew,crew_pos):
+def getOutro(name, gender, cabin, age, siblings, children, status, passenger_crew, crew_pos):
     if status==0 and gender=="Male":
         endString="On the fateful night of April 14, 1912, aboard the RMS Titanic, tragedy struck in the frigid waters of the North Atlantic. Among the countless heartbreaking stories, one recounts the demise of a young man named"+name+". "+name+", a "+cabin+" passenger on the ill-fated vessel, found himself amidst chaos and panic as the ship collided with an iceberg. Despite valiant efforts by crew members to launch lifeboats, there simply weren't enough for all aboard."+name+", like many others, faced the grim reality of the limited supply of life-saving flotation devices. In the chaos that ensued, he struggled against the surging crowds, desperately seeking a means of escape. Tragically, "+name+" succumbed to the freezing waters before he could secure a place in a lifeboat, becoming one of the many victims of the Titanic disaster whose stories echo through history with profound sorrow."
     elif status==0 and gender=="Male" and cabin=="First Class" and children>0:
@@ -108,7 +190,6 @@ def getOutro(name,gender,cabin,age, siblings,children,status,passenger_crew,crew
 
     return endString
 
-
 def update_ui(selection):
     if selection == "Passenger":
         cabin_menu.grid(row=5, column=1, sticky="w")
@@ -140,10 +221,16 @@ def submit_persona():
     children = children_entry.get()
     parents = parents_entry.get()
 
+    # Get Intro Text
     intro = getIntro(name, gender, age, passenger_crew, cabin, children, parents, siblings, crew_pos)
     print(intro)
 
-    outro=getOutro(name, gender, age, passenger_crew, cabin, children, parents, siblings, crew_pos)
+    # Predict Survival
+    p_model, c_model = loadModel()
+    survived = executeModel(p_model, c_model, gender, age, passenger_crew, cabin, children, parents, siblings, crew_pos)
+
+    # Get Outro Text
+    outro=getOutro(name, gender, cabin, age, siblings, children, survived, passenger_crew, crew_pos)
     print(outro)
 
 # Create main window
