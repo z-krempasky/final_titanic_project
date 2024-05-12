@@ -34,10 +34,13 @@ def executeModel(p_model, c_model, gender, age, passenger_crew, class_type, chil
     # Class Type
     if (class_type == "First Class"):
         use_class_type = 1
+        fare = 150
     elif (class_type == "Second Class"):
         use_class_type = 2
+        fare = 60
     else: #Third Class
         use_class_type = 3
+        fare = 35
 
     # Crew Type
     if (crew_pos == "Deck Hand"):
@@ -61,7 +64,7 @@ def executeModel(p_model, c_model, gender, age, passenger_crew, class_type, chil
     # Passenger Model
     if (passenger_crew == "Passenger"):
         # Assemble Data
-        data = np.array([[use_class_type, use_gender, use_age, use_siblings, use_parents, 25, 0]])
+        data = np.array([[use_class_type, use_gender, use_age, use_siblings, use_parents, fare, 0]])
         # Make Predictions
         try:
             prediction = p_model.predict(data, verbose=0)
