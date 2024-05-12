@@ -93,7 +93,7 @@ def getIntro(name, gender, age, position, cabin, children, parents, sibling, cre
     kidString = "0"
     positionString = "0"
 
-    StartString = " Welcome to the Titanic! Your name is " + name + " and you are a " + age + " year old " + gender + ", excited for the journey ahead." \
+    StartString = "Welcome to the Titanic! Your name is " + name + " and you are a " + age + " year old " + gender + ", excited for the journey ahead." \
                   " As you walk toward the wonderful ship you can't help but gaze at the massive ship that you will soon board." \
                   " You feel overjoyed being able to go on such a ship for its maiden voyage"
 
