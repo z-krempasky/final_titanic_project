@@ -70,13 +70,13 @@ def getIntro(name, gender, age, position, cabin, children, parents, sibling, cre
     return outString
 
 
-def getOutro(name,gender,cabin,age, siblings,children,status,passenger_crew,crew_pos):
+def getOutro(name, gender, age, passenger_crew, cabin, children, status, siblings, crew_pos):
     if status==0 and gender=="Male":
         endString="On the fateful night of April 14, 1912, aboard the RMS Titanic, tragedy struck in the frigid waters of the North Atlantic. Among the countless heartbreaking stories, one recounts the demise of a young man named"+name+". "+name+", a "+cabin+" passenger on the ill-fated vessel, found himself amidst chaos and panic as the ship collided with an iceberg. Despite valiant efforts by crew members to launch lifeboats, there simply weren't enough for all aboard."+name+", like many others, faced the grim reality of the limited supply of life-saving flotation devices. In the chaos that ensued, he struggled against the surging crowds, desperately seeking a means of escape. Tragically, "+name+" succumbed to the freezing waters before he could secure a place in a lifeboat, becoming one of the many victims of the Titanic disaster whose stories echo through history with profound sorrow."
     elif status==0 and gender=="Male" and cabin=="First Class" and children>0:
-        endstring="Among the opulent corridors and lavish salons of the RMS Titanic, the demise of a wealthy magnate named " +name+ " unfolded in the early hours of April 15, 1912. As a "+cabin+"-class passenger, "+name+" enjoyed the luxuries afforded by his wealth, but even his privilege couldn't shield him from the cruel hand of fate. When the ship struck the iceberg, chaos ensued, and "+name+" found himself amidst a frenzy of panicked passengers scrambling for safety. Despite his affluence, the scarcity of lifeboats proved a harsh reality. Determined to secure a place for himself and his loved ones, "+name+" bravely attempted to navigate the chaos. However, in the frantic scramble, fate dealt its cruel blow, and "+name+", unable to find a place on a lifeboat, succumbed to the icy waters of the Atlantic. His untimely demise serves as a poignant reminder that in the face of nature's wrath, wealth offers no immunity, and tragedy spares no one."
+        endString="Among the opulent corridors and lavish salons of the RMS Titanic, the demise of a wealthy magnate named " +name+ " unfolded in the early hours of April 15, 1912. As a "+cabin+"-class passenger, "+name+" enjoyed the luxuries afforded by his wealth, but even his privilege couldn't shield him from the cruel hand of fate. When the ship struck the iceberg, chaos ensued, and "+name+" found himself amidst a frenzy of panicked passengers scrambling for safety. Despite his affluence, the scarcity of lifeboats proved a harsh reality. Determined to secure a place for himself and his loved ones, "+name+" bravely attempted to navigate the chaos. However, in the frantic scramble, fate dealt its cruel blow, and "+name+", unable to find a place on a lifeboat, succumbed to the icy waters of the Atlantic. His untimely demise serves as a poignant reminder that in the face of nature's wrath, wealth offers no immunity, and tragedy spares no one."
     elif status==0 and gender=="Female" and passenger_crew=="Crew" and crew_pos=="Deck Hand":
-        endstring="Amidst the bustling decks and diligent work of the crew aboard the RMS Titanic, the tragic fate of a dedicated steward named "+name+" unfolded on the fateful night of April 14, 1912. As an integral part of the ship's service staff, "+name+" took pride in her duties, ensuring the comfort and safety of the passengers in her care. When the unthinkable occurred and the Titanic struck an iceberg, "+name+" professionalism and composure were put to the ultimate test. Amidst the chaos and panic that ensued, "+name+" tirelessly assisted passengers, guiding them to safety and offering reassurance in the face of impending disaster. Despite her selfless efforts, the limited availability of lifeboats proved insurmountable. In a heart-wrenching moment, "+name+" made the ultimate sacrifice, relinquishing her chance of survival to ensure the safety of others. Her unwavering dedication and bravery in the face of adversity stand as a testament to the heroism of the crew who faced unimaginable challenges that fateful night."
+        endString="Amidst the bustling decks and diligent work of the crew aboard the RMS Titanic, the tragic fate of a dedicated steward named "+name+" unfolded on the fateful night of April 14, 1912. As an integral part of the ship's service staff, "+name+" took pride in her duties, ensuring the comfort and safety of the passengers in her care. When the unthinkable occurred and the Titanic struck an iceberg, "+name+" professionalism and composure were put to the ultimate test. Amidst the chaos and panic that ensued, "+name+" tirelessly assisted passengers, guiding them to safety and offering reassurance in the face of impending disaster. Despite her selfless efforts, the limited availability of lifeboats proved insurmountable. In a heart-wrenching moment, "+name+" made the ultimate sacrifice, relinquishing her chance of survival to ensure the safety of others. Her unwavering dedication and bravery in the face of adversity stand as a testament to the heroism of the crew who faced unimaginable challenges that fateful night."
     elif status==0 and gender=="Male" and children>0 and cabin !="First Class":
         endString="On the ill-fated voyage of the RMS Titanic, the heartbreaking tale of a devoted father named "+name+" unfolded amidst the chaos of April 14, 1912. As a passenger in "+cabin+" class, "+name+" cherished the journey with his beloved daughter, Sarah, holding onto dreams of a brighter future awaiting them in America. When the ship struck an iceberg, panic seized the decks, and "+name+"'s instincts shifted to protecting his precious child. Amidst the clamor for lifeboats, "+name+"'s unwavering focus remained on securing a place for Sarah, sacrificing his own safety without hesitation. With stoic resolve, he clung to hope, comforting Sarah with promises of rescue even as the icy waters crept closer. In a heart-wrenching moment of farewell, "+name+" ensured Sarah's place in a lifeboat, whispering words of love and encouragement before bidding her farewell. His final act of paternal love, etched in the annals of history, serves as a poignant reminder of the enduring strength and sacrifice of a father's love."
     elif status==1 and gender=="Female" and children==1:
@@ -129,6 +129,16 @@ def update_ui(selection):
         parents_entry.grid_remove()
         crew_pos_menu.grid_remove()
 
+def display_output(intro, outro):
+    output_window = tk.Toplevel(root)
+    output_window.title("Titanic Simulation Output")
+
+    intro_label = tk.Label(output_window, text=intro, wraplength=400, justify="left")
+    intro_label.grid(row=0, column=0, padx=10, pady=10)
+
+    outro_label = tk.Label(output_window, text=outro, wraplength=400, justify="left")
+    outro_label.grid(row=1, column=0, padx=10, pady=10)
+
 def submit_persona():
     name = name_entry.get()
     gender = gender_var.get()
@@ -139,12 +149,10 @@ def submit_persona():
     siblings = siblings_entry.get()
     children = children_entry.get()
     parents = parents_entry.get()
-
     intro = getIntro(name, gender, age, passenger_crew, cabin, children, parents, siblings, crew_pos)
-    print(intro)
+    outro = getOutro(name, gender, age, passenger_crew, cabin, children, parents, siblings, crew_pos)
 
-    outro=getOutro(name, gender, age, passenger_crew, cabin, children, parents, siblings, crew_pos)
-    print(outro)
+    display_output(intro, outro)
 
 # Create main window
 root = tk.Tk()
