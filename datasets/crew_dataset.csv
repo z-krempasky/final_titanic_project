@@ -1,0 +1,891 @@
+survived,name,sex,age,class,embarked
+1,"Anderson, Mr. James",0,40,0,0
+1,"Archer, Mr. Ernest Edward",0,35,0,0
+1,"Bailey, Mr. Henry Joseph",0,46,0,0
+1,"Boxhall, Mr. Joseph Groves",0,28,0,1
+0,"Bradley, Mr. T.",0,29,0,0
+1,"Brice, Mr. Walter Thomas",0,43,0,0
+1,"Bright, Mr. Arthur John",0,42,0,1
+1,"Buley, Mr. Edward John",0,26,0,0
+1,"Clench, Mr. Frederick Charles",0,33,0,0
+0,"Clench, Mr. George James",0,31,0,0
+0,"Couch, Mr. Frank",0,28,0,0
+0,"Davis, Mr. Stephen James",0,39,0,0
+1,"Evans, Mr. Alfred Frank",0,25,0,0
+1,"Evans, Mr. Frank Oliver",0,27,0,0
+1,"Fleet, Mr. Frederick",0,24,0,1
+1,"Foley, Mr. John",0,46,0,1
+1,"Forward, Mr. James",0,27,0,0
+1,"Haines, Mr. Albert",0,31,0,1
+1,"Harder, Mr. William",0,39,0,0
+1,"Hemming, Mr. Samuel Ernest",0,43,0,1
+1,"Hichens, Mr. Robert",0,29,0,0
+1,"Hogg, Mr. George Alfred",0,29,0,1
+0,"Holman, Mr. Harry",0,29,0,1
+1,"Hopkins, Mr. Robert John",0,40,0,0
+1,"Horswill, Mr. Albert Edward James",0,33,0,0
+1,"Humphreys, Mr. Sidney",0,53,0,0
+0,"Hutchinson, Mr. John Hall",0,28,0,1
+1,"Jewell, Mr. Archie",0,23,0,1
+1,"Jones, Mr. Thomas William",0,32,0,0
+0,"King, Mr. Thomas Walter",0,42,0,0
+1,"Lee, Mr. Reginald Robinson",0,41,0,0
+1,"Lightoller, Mr. Charles Herbert",0,38,0,1
+1,"Lowe, Mr. Harold Godfrey",0,29,0,1
+1,"Lucas, Mr. William Arthur",0,25,0,0
+0,"Lyons, Mr. William Henry",0,26,0,0
+0,"Matherson, Mr. David",0,30,0,0
+0,"Mathias, Mr. Montague Vincent",0,29,0,0
+0,"Maxwell, Mr. John",0,30,0,1
+1,"McCarthy, Mr. William",0,47,0,0
+1,"McGough, Mr. George Francis 'Paddy'",0,36,0,0
+0,"Moody, Mr. James Paul",0,24,0,1
+1,"Moore, Mr. George Alfred",0,32,0,0
+0,"Murdoch, Mr. William McMaster",0,39,0,1
+0,"Nichols, Mr. Alfred William Stanley",0,48,0,1
+1,"Olliver, Mr. Alfred John",0,27,0,1
+0,"O'Loughlin, Dr. William Francis Norman",0,63,0,1
+1,"Osman, Mr. Frank",0,27,0,0
+1,"Pascoe, Mr. Charles H.",0,45,0,0
+1,"Perkis, Mr. Walter John",0,37,0,1
+1,"Peters, Mr. William Chapman",0,26,0,0
+1,"Pitman, Mr. Herbert John",0,34,0,1
+1,"Poingdestre, Mr. John Thomas",0,33,0,0
+1,"Rowe, Mr. George Thomas",0,32,0,1
+0,"Sawyer, Mr. Robert James",0,31,0,0
+1,"Scarrott, Mr. Joseph George",0,33,0,0
+0,"Simpson, Dr. John Edward",0,37,0,0
+0,"Smith, Captain. Edward John",0,62,0,0
+0,"Smith, Mr. William",0,26,0,0
+1,"Symons, Mr. George Thomas Macdonald",0,24,0,0
+0,"Tamlyn, Mr. Frederick",0,24,0,0
+0,"Taylor, Mr. Charles William Frederick",0,40,0,0
+0,"Terrell, Mr. Bertram",0,19,0,0
+1,"Vigott, Mr. Philip Francis",0,32,0,0
+1,"Weller, Mr. William Clifford",0,30,0,1
+0,"Wilde, Mr. Henry Tingle",0,39,0,0
+1,"Wynn, Mr. Walter",0,41,0,1
+0,"Green, Mr. George",0,20,1,0
+0,"Kelly, Mr. James",0,44,1,0
+0,"Abrams, Mr. William Thomas",0,34,1,0
+0,"Adams, Mr. Robert John",0,26,1,0
+1,"Allen, Mr. Ernest Frederick",0,24,1,0
+0,"Allen, Mr. Henry",0,30,1,0
+0,"Allsop, Mr. Alfred Samuel",0,36,1,1
+1,"Avery, Mr. James Albert",0,21,1,0
+0,"Bailey, Mr. George Frank",0,46,1,0
+0,"Baines, Mr. Richard",0,24,1,0
+0,"Bannon, Mr. John Joseph",0,34,1,0
+0,"Barlow, Mr. Charles",0,30,1,0
+0,"Barnes, Mr. Charles",0,29,1,0
+0,"Barnes, Mr. John",0,40,1,0
+1,"Barrett, Mr. Frederick",0,28,1,0
+0,"Barrett, Mr. Frederick William",0,33,1,0
+0,"Beattie, Mr. Joseph",0,35,1,1
+1,"Beauchamp, Mr. George William",0,24,1,0
+0,"Bell, Mr. Joseph",0,51,1,1
+0,"Bendell, Mr. Frank",0,24,1,0
+0,"Bennett, Mr. George Alfred",0,30,1,0
+0,"Benville, Mr. Edward",0,47,1,0
+0,"Bessant, Mr. William Edward Lowe",0,39,1,0
+0,"Bevis, Mr. Joseph Henry",0,22,1,0
+0,"Biddlecombe, Mr. Reginald Charles",0,31,1,0
+0,"Biggs, Mr. Edward Charles",0,20,1,0
+0,"Billows, Mr. James",0,20,1,0
+1,"Binstead, Mr. Walter William",0,20,1,0
+0,"Blackman, Mr. Albert Edward",0,23,1,0
+0,"Black, Mr. Alexander",0,28,1,0
+0,"Black, Mr. D.",0,41,1,0
+1,"Blake, Mr. Percival Albert",0,23,1,0
+0,"Blake, Mr. Seaton",0,26,1,1
+0,"Blake, Mr. Thomas Henry",0,37,1,0
+0,"Blaney, Mr. James",0,32,1,0
+0,"Blann, Mr. Eustace Horatius",0,22,1,0
+0,"Bott, Mr. William Thomas",0,46,1,0
+0,"Bradley, Mr. Patrick Joseph",0,39,1,0
+0,"Brewer, Mr. Harry",0,30,1,0
+0,"Briant, Mr. Albert",0,34,1,0
+0,"Brooks, Mr. J.",0,25,1,0
+0,"Brown, Mr. John",0,28,1,0
+0,"Brown, Mr. Joseph James",0,25,1,0
+0,"Burroughs, Mr. Arthur Peckham",0,35,1,0
+0,"Burton, Mr. Edward John",0,35,1,0
+0,"Butt, Mr. William John",0,31,1,0
+0,"Calderwood, Mr. Hugh",0,30,1,1
+0,"Canner, Mr. John",0,40,1,0
+0,"Carr, Mr. Richard Stephen",0,27,1,0
+0,"Carter (Ball), Mr. James (W.)",0,46,1,0
+0,"Casey, Mr. Thomas",0,44,1,0
+0,"Castleman, Mr. Edward",0,37,1,0
+1,"Cavell, Mr. George Henry",0,22,1,0
+0,"Cherrett, Mr. William Victor",0,25,1,0
+0,"Chisnall, Mr. George Alexander",0,37,1,1
+0,"Chorley, Mr. John Henry",0,25,1,0
+1,"Clark, Mr. William",0,40,1,0
+0,"Coe, Mr. Harry",0,22,1,0
+0,"Coleman, Mr. John",0,58,1,1
+1,"Collins, Mr. John",0,38,1,0
+1,"Combes, Mr. George",0,34,1,0
+0,"Cooper, Mr. Harry",0,26,1,0
+0,"Cooper, Mr. James Edward",0,26,1,0
+0,"Copperthwaite, Mr. Albert Harry",0,28,1,0
+0,"Corcoran, Mr. Dennis",0,33,1,0
+0,"Cotton, Mr. Alfred",0,36,1,0
+0,"Couch, Mr. Joseph Henry",0,49,1,0
+1,"Couper, Mr. Robert Frederick William",0,30,1,0
+0,"Coy, Mr. Francis Ernest George",0,27,1,1
+0,"Crabb, Mr. Henry James",0,23,1,0
+0,"Creese, Mr. Henry Philip",0,45,1,1
+1,"Crimmins, Mr. James",0,21,1,0
+0,"Cross, Mr. William Alfred",0,44,1,0
+0,"Cunningham, Mr. Bernard",0,35,1,0
+0,"Curtis, Mr. Arthur",0,26,1,0
+0,"Davies, Mr. Thomas",0,33,1,0
+0,"Dawson, Mr. Joseph",0,23,1,0
+1,"Diaper, Mr. John Joseph",0,27,1,0
+0,"Dickson, Mr. William",0,37,1,0
+1,"Dilley, Mr. John",0,30,1,0
+1,"Dillon, Mr. Thomas Patrick",0,34,1,0
+0,"Dodd, Mr. Edward Charles",0,39,1,1
+0,"Dodds, Mr. Henry Watson",0,27,1,0
+1,"Doel, Mr. Frederick",0,22,1,0
+1,"Dore, Mr. Albert James",0,23,1,0
+0,"Doyle, Mr. Laurence",0,27,1,0
+0,"Duffy, Mr. William Luke",0,36,1,1
+0,"Durnil, Mr. James",0,38,1,0
+0,"Dyer, Mr. Henry Ryland",0,24,1,1
+1,"Dymond, Mr. Frank",0,41,1,0
+0,"Eagle, Mr. Alfred James",0,22,1,0
+0,"Eastman, Mr. Charles",0,44,1,0
+0,"Elliott, Mr. Everett Edward",0,23,1,0
+0,"Ervine, Mr. Albert George",0,18,1,1
+0,"Evans, Mr. William Thomas",0,33,1,0
+0,"Farquharson, Mr. William Edward",0,39,1,1
+0,"Fay, Mr. Thomas Joseph",0,30,1,0
+0,"Ferrary, Mr. Antonio",0,33,1,0
+0,"Ferris, Mr. William",0,39,1,0
+1,"Fitzpatrick, Mr. Cecil William",0,21,1,0
+0,"Fitzpatrick, Mr. Hugh Joseph",0,29,1,1
+1,"Flarty, Mr. Edward",0,52,1,0
+0,"Ford, Mr. H.",0,22,1,0
+0,"Ford, Mr. Thomas",0,33,1,0
+0,"Foster, Mr. Alfred Charles",0,37,1,1
+0,"Fraser, Mr. J.",0,30,1,0
+0,"Fraser, Mr. James",0,30,1,1
+1,"Fredericks, Mr. Walter Francis",0,21,1,0
+1,"Fryer, Mr. Albert Ernest",0,29,1,0
+0,"Geer, Mr. Alfred Emest",0,26,1,0
+1,"Godley, Mr. George Auguste",0,61,1,0
+0,"Godwin, Mr. Frederick Charles",0,36,1,0
+0,"Golder, Mr. M. W.",0,32,1,0
+0,"Gordon, Mr. J.",0,29,1,0
+0,"Goree, Mr. Frank",0,41,1,0
+0,"Gosling, Mr. Bertram James",0,22,1,0
+0,"Gosling, Mr. S.",0,26,1,0
+0,"Gradidge, Mr. Ernest Edward",0,22,1,0
+1,"Graham, Mr. Thomas Gibson",0,28,1,1
+0,"Gregory, Mr. David",0,43,1,0
+0,"Gumery, Mr. George",0,24,1,0
+1,"Haggan, Mr. John",0,35,1,1
+0,"Hallett, Mr. George Alexander",0,23,1,0
+0,"Hall, Mr. J.",0,32,1,0
+0,"Hands, Mr. Bernard",0,54,1,0
+0,"Hannam, Mr. George",0,30,1,0
+0,"Harris, Mr. Amos",0,24,1,0
+0,"Harris, Mr. Edward John",0,29,1,0
+1,"Harris, Mr. Frederick",0,39,1,0
+0,"Harrison, Mr. Norman E.",0,38,1,1
+0,"Hart, Mr. James",0,54,1,0
+0,"Harvey, Mr. Herbert Gifford",0,34,1,1
+0,"Head, Mr. Alfred",0,24,1,0
+1,"Hebb, Mr. William Albert",0,22,1,0
+1,"Hendrickson, Mr. Charles Osker",0,28,1,0
+0,"Hesketh, Mr. John Henry",0,33,1,1
+0,"Heslin, Mr. James",0,45,1,0
+0,"Hill, Mr. James",0,25,1,0
+0,"Hinton, Mr. Stephen William",0,31,1,0
+0,"Hodge, Mr. Charley",0,29,1,1
+0,"Hodges, Mr. W.",0,26,1,0
+0,"Hodgkinson, Mr. Leonard",0,46,1,1
+0,"Hopgood, Mr. Roland John C.",0,29,1,0
+0,"Hosgood, Mr. Richard William",0,23,1,0
+0,"Hosking, Mr. George Fox",0,36,1,1
+1,"Hunt, Mr. Albert Sylvanus",0,23,1,0
+0,"Hunt, Mr. Tom",0,27,1,0
+0,"Hurst, Mr. Charles John",0,41,1,0
+1,"Hurst, Mr. Walter",0,23,1,0
+0,"Ingram, Mr. George",0,19,1,0
+0,"Instance, Mr. T.",0,33,1,0
+0,"Jackopson, Mr. John Henry",0,30,1,0
+0,"Jago, Mr. Joseph",0,59,1,0
+0,"James, Mr. Thomas",0,27,1,0
+0,"Joas, Mr. N.",0,38,1,0
+1,"Judd, Mr. Charles Edward",0,31,1,0
+0,"Jukes, Mr. Henry James",0,38,1,0
+0,"Jupe, Mr. Boykett Herbert",0,30,1,0
+1,"Kasper, Mr. Franz Wilhelm",0,40,1,0
+0,"Kearl, Mr. Charles Henry",0,44,1,0
+0,"Kearl, Mr. George Edward",0,25,1,0
+0,"Kelly, Mr. William",0,23,1,1
+1,"Kemish, Mr. George",0,22,1,0
+0,"Kemp, Mr. Thomas Hulman",0,43,1,1
+0,"Kenchenten, Mr. Frederick Charles",0,37,1,0
+0,"Kenzler, Mr. August",0,44,1,1
+0,"Kerr, Mr. Thomas Russell",0,26,1,0
+0,"Kinsella, Mr. Louis",0,30,1,0
+0,"Kirkham, Mr. James",0,43,1,0
+1,"Knowles, Mr. Thomas",0,43,1,0
+0,"Lahy, Mr. T.",0,41,1,0
+0,"Lee, Mr. H.",0,18,1,0
+0,"Light, Mr. Christopher William",0,20,1,0
+0,"Light, Mr. W.",0,47,1,0
+1,"Lindsay, Mr. William Charles",0,30,1,0
+0,"Lloyd, Mr. William",0,29,1,0
+0,"Long, Mr. Frank",0,31,1,0
+0,"Long, Mr. William",0,36,1,0
+0,"Mackie, Mr. William Dickson",0,32,1,1
+1,"Major, Mr. William James",0,32,1,0
+0,"Marett, Mr. George John",0,27,1,0
+0,"Marsh, Mr. Frederick Charles",0,40,1,0
+0,"Maskell, Mr. Leopold Adolphus",0,25,1,0
+1,"Mason, Mr. Frank Archibald Robert",0,32,1,0
+0,"Mason, Mr. J.",0,39,1,0
+0,"May, Mr. Arthur William",0,22,1,0
+0,"May, Mr. Arthur William",0,59,1,0
+0,"Mayo, Mr. William Peter",0,28,1,0
+1,"Mayzes, Mr. Thomas Jubilee",0,25,1,0
+0,"McAndrew, Mr. Thomas Patrick",0,38,1,0
+0,"McAndrews, Mr. William",0,23,1,0
+0,"McCastlan, Mr. W.",0,38,1,0
+1,"McGann, Mr. James",0,29,1,0
+0,"McGarvey, Mr. Edward Joseph",0,34,1,0
+0,"McGaw, Mr. Erroll Victor",0,30,1,0
+0,"McInerney, Mr. Thomas",0,38,1,0
+1,"McIntyre, Mr. William",0,21,1,0
+0,"McQuillan, Mr. William",0,26,1,1
+0,"McRae, Mr. William Alexander",0,32,1,0
+0,"McReynolds, Mr. William",0,22,1,1
+0,"Middleton, Mr. Alfred Pirrie",0,27,1,1
+0,"Milford, Mr. George",0,28,1,0
+0,"Millar, Mr. Robert",0,26,1,1
+0,"Millar, Mr. Thomas",0,32,1,1
+0,"Mintram, Mr. William",0,46,1,0
+0,"Mitchell, Mr. Lorenzo (Lawrence) Horace",0,19,1,0
+1,"Moore, Mr. John J.",0,29,1,0
+0,"Moore, Mr. Ralph",0,22,1,0
+0,"Moores, Mr. Richard Henry",0,44,1,0
+0,"Morgan, Mr. Arthur Herbert",0,27,1,0
+0,"Morgan, Mr. Thomas A.",0,26,1,0
+0,"Morris, Mr. Arthur",0,30,1,0
+0,"Morris, Mr. William Edward",0,23,1,0
+0,"Moyes, Mr. William Young",0,24,1,1
+0,"Nettleton, Mr. George Walter",0,30,1,0
+0,"Newman, Mr. Charles Thomas",0,33,1,0
+0,"Niven, Mr. John Brown",0,30,1,0
+0,"Noon, Mr. John Thomas",0,42,1,0
+0,"Norris, Mr. James",0,22,1,0
+0,"Noss, Mr. Bertram Arthur",0,21,1,0
+1,"Noss, Mr. Henry",0,30,1,0
+1,"Nutbean, Mr. William",0,30,1,0
+1,"O'Connor, Mr. John",0,29,1,0
+0,"Olive, Mr. Charles",0,31,1,0
+1,"Oliver, Mr. H.",0,32,1,0
+1,"Othen, Mr. Charles Alfred",0,36,1,0
+0,"Paice, Mr. Richard Charles John",0,32,1,0
+0,"Painter, Mr. Charles",0,32,1,0
+0,"Painter, Mr. Frank",0,29,1,0
+0,"Palles, Mr. Thomas Henry Michael",0,45,1,1
+0,"Parsons, Mr. Frank Alfred",0,27,1,1
+1,"Pearce, Mr. John",0,28,1,0
+1,"Pelham, Mr. George",0,39,1,0
+1,"Perry, Mr. Edgar Lionel",0,19,1,0
+0,"Perry, Mr. Henry Frederick",0,23,1,0
+0,"Phillips, Mr. A. George",0,27,1,0
+0,"Pitfield, Mr. William James",0,25,1,0
+1,"Podesta, Mr. Alfred John Alexander",0,24,1,0
+0,"Pond, Mr. George",0,33,1,0
+1,"Prangnell, Mr. George Alexander",0,30,1,0
+0,"Preston, Mr. Thomas Charles Alfred",0,20,1,0
+1,"Priest, Mr. Arthur John",0,24,1,0
+0,"Proudfoot, Mr. Richard Royston",0,22,1,0
+0,"Pugh, Mr. Arthur Percy",0,31,1,0
+1,"Pusey, Mr. William Robert Holland",0,22,1,0
+1,"Ranger, Mr. Thomas",0,29,1,0
+0,"Read, Mr. Joseph",0,20,1,0
+0,"Reeves, Mr. Frederick Simms",0,34,1,0
+0,"Reid, Mr. Robert Thomas",0,30,1,0
+1,"Rice, Mr. Charles",0,32,1,0
+0,"Richards, Mr. Joseph James",0,30,1,0
+0,"Rickman, Mr. George Albert",0,36,1,0
+0,"Roberts, Mr. Robert George",0,35,1,0
+0,"Rous, Mr. Arthur John",0,26,1,1
+0,"Rudd, Mr. Henry",0,24,1,0
+0,"Rutter, Mr. Sidney Frank",0,27,1,0
+0,"Sangster, Mr. Charles Edward",0,30,1,0
+0,"Saunders, Mr. F.",0,22,1,0
+0,"Saunders, Mr. W.",0,23,1,0
+0,"Saunders, Mr. Walter Ernest",0,23,1,0
+0,"Scott, Mr. Archibald",0,41,1,0
+1,"Scott, Mr. Frederick William",0,28,1,0
+1,"Self, Mr. Albert Charles Edward",0,24,1,0
+0,"Self, Mr. Alfred Henry",0,40,1,0
+1,"Senior, Mr. Harry",0,31,1,0
+0,"Shea, Mr. Thomas",0,32,1,0
+1,"Sheath, Mr. Frederick",0,20,1,0
+0,"Shepherd, Mr. Jonathan",0,32,1,0
+1,"Shiers, Mr. Alfred Charles",0,25,1,0
+0,"Shillabeer, Mr. Charles Frederick",0,19,1,0
+0,"Skeates, Mr. William",0,23,1,0
+0,"Sloan, Mr. Peter",0,31,1,1
+0,"Small, Mr. William",0,40,1,0
+0,"Smither, Mr. Harry James",0,22,1,0
+0,"Smith, Mr. Emest George",0,27,1,0
+0,"Smith, Mr. James Muil",0,39,1,1
+0,"Snellgrove, Mr. George",0,41,1,0
+0,"Snooks, Mr. W.",0,26,1,0
+1,"Snow, Mr. Eustace Philip",0,21,1,0
+1,"Sparkman, Mr. Henry William",0,36,1,0
+0,"Stanbrook, Mr. Augustus George",0,31,1,0
+0,"Steel, Mr. Robert Edward",0,30,1,0
+0,"Stocker, Mr. Henry Dorey",0,20,1,0
+1,"Street, Mr. Thomas Albert",0,25,1,0
+0,"Stubbs, Mr. James Henry",0,28,1,0
+0,"Sullivan, Mr. S.",0,25,1,0
+1,"Taylor, Mr. George",0,24,1,0
+0,"Taylor, Mr. J.",0,42,1,0
+0,"Taylor, Mr. John Henry",0,49,1,0
+1,"Taylor, Mr. William Henry",0,28,1,0
+0,"Thomas, Mr. Joseph Wakefield",0,24,1,0
+1,"Thompson, Mr. John William",0,35,1,0
+1,"Threlfall, Mr. Thomas",0,44,1,0
+1,"Thresher, Mr. George Terrill",0,25,1,0
+0,"Tizard, Mr. Arthur Leopold",0,31,1,0
+0,"Tozer, Mr. James",0,32,1,0
+1,"Triggs, Mr. Reuben Robert",0,39,1,0
+0,"Turley, Mr. Richard",0,37,1,1
+0,"van der Brugge, Mr. Wessel Adrianus",0,38,1,0
+0,"Veal, Mr. Arthur",0,36,1,0
+0,"Vear, Mr. Henry",0,33,1,0
+0,"Vear, Mr. William",0,34,1,0
+0,"Ward, Mr. Arthur",0,23,1,1
+0,"Ward, Mr. James William",0,31,1,0
+0,"Wardner, Mr. Fred Albert",0,40,1,0
+0,"Wateridge, Mr. Edward Lewis",0,26,1,0
+0,"Watson, Mr. Willim",0,27,1,0
+0,"Webber, Mr. Francis Albert",0,31,1,0
+0,"Webb, Mr. Samuel Francis",0,28,1,0
+0,"White, Mr. Albert",0,21,1,0
+1,"White, Mr. Alfred",0,32,1,0
+0,"White, Mr. Frank Leonard",0,28,1,0
+1,"White, Mr. William George",0,23,1,0
+0,"Williams, Mr. Samuel Solomon",0,26,1,0
+0,"Wilson, Mr. Herbert 'Bertie'",0,28,1,1
+0,"Wilton, Mr. William Edward",0,53,1,0
+0,"Witcher, Mr. Albert Ernest",0,39,1,0
+0,"Witt, Mr. Henry Dennis",0,37,1,0
+0,"Witts, Mr. William Francis",0,35,1,0
+0,"Woodford, Mr. Frederick Ernest",0,40,1,0
+0,"Wood, Mr. Henry",0,31,1,0
+0,"Worthman, Mr. William Henry",0,37,1,0
+0,"Wyeth, Mr. James Robert",0,26,1,0
+0,"Young, Mr. Francis James",0,32,1,0
+0,"Allaria, Sig. Battista Antonio",0,22,2,0
+0,"Aspeslagh, Mr. Georges",0,26,2,0
+0,"Banfi, Sig. Ugo",0,24,2,0
+0,"Basilico, Sig. Giovanni",0,27,2,0
+0,"Bazzi, Sig. Narciso",0,33,2,0
+0,"Bernardi, Sig. Battista",0,22,2,0
+0,"Beux, Mr. David",0,26,2,0
+0,"Bietrix, Mr. George Baptiste",0,28,2,0
+0,"Blumet, Mr. Jean Baptiste",0,26,2,0
+0,"Bochet, Mr. Pierre Giuseppe",0,43,2,0
+0,"Bolhuis, Mr. Hendrik",0,27,2,0
+1,"Bowker, Miss. Ruth Harwood",1,31,2,0
+0,"Casali, Sig. Giulio",0,32,2,0
+0,"Chaboisson, Mr. Adrien Finnin",0,25,2,0
+0,"Cornaire, Mr. Marcel Raymond André",0,19,2,0
+0,"Coutin, Mr. Auguste Louis",0,28,2,0
+0,"Crovella, Sig. Luigi",0,17,2,0
+0,"Debreucq, Mr. Maurice Emile Victor",0,18,2,0
+0,"De Marsico, Sig. Govanni",0,20,2,0
+0,"Desvernine, Mr. Louis Gabriel",0,20,2,0
+0,"Donati, Sig. Italo Francesco",0,17,2,0
+0,"Dornier, Mr. Louis Auguste",0,20,2,0
+0,"Fey, Sig. Carlo",0,30,2,0
+0,"Fioravante, Sig. Giuseppe Bertoldo",0,23,2,0
+0,"Gatti, Sig. Gaspare Antonio Pietro",0,37,2,0
+0,"Gilardino, Sig. Vincenzo Pio",0,31,2,0
+0,"Grosclaude, Mr. Gérald",0,24,2,0
+0,"Jaillet, Mr. Henri Marie",0,38,2,0
+0,"Janin, Mr. Claude Marie",0,29,2,0
+0,"Jeffery, Mr. William Alfred",0,28,2,0
+0,"Jouannault, Mr. Georges Jules",0,24,2,0
+1,"Martin, Miss. Mabel Elvina",1,20,2,0
+0,"Mattmann, Sig. Adolf",0,20,2,0
+1,"Mauge, Mr. Paul Achille Maurice Germain",0,25,2,0
+0,"Monrós, Sr. Joan Javier",0,20,2,0
+0,"Monteverdi, Sig. Giovanni",0,23,2,0
+0,"Nannini, Sig. Francesco Luigi Arcangelo",0,42,2,0
+0,"Pachera, Sig. Jean Baptiste Stanislas",0,19,2,0
+0,"Pedrini, Sig. Alessandro",0,21,2,0
+0,"Peracchio, Sig. Alberto",0,20,2,0
+0,"Peracchio, Sig. Sebastiano",0,17,2,0
+0,"Perotti, Sig. Alfonso",0,20,2,0
+0,"Phillips, Mr. Walter John",0,35,2,0
+0,"Piatti, Sig. Louis",0,17,2,0
+0,"Piazza, Sig. Pompeo Gaspro",0,33,2,0
+0,"Poggi, Sig. Emilio",0,28,2,0
+0,"Price, Mr. Ernest Cyril",0,17,2,0
+0,"Ratti, Sig. Enrico",0,21,2,0
+0,"Ricaldone, Sig. Rinaldo Renato",0,22,2,0
+0,"Rigozzi, Sig. Abele",0,22,2,0
+0,"Rotta, Sig. Angelo Mario",0,23,2,0
+0,"Rousseau, Mr. Pierre",0,49,2,0
+0,"Saccaggi, Sig. Giovanni Giuseppe Emilio",0,24,2,0
+0,"Salussolia, Sig. Govanni",0,25,2,0
+0,"Sartori, Sig. Lazar",0,24,2,0
+0,"Scavino, Sig. Candido",0,42,2,0
+0,"Sesia, Sig. Giacomo",0,24,2,0
+0,"Testoni, Sig. Ercole",0,23,2,0
+0,"Tietz, Sig. Carlo/Karl",0,27,2,0
+0,"Turvey, Mr. Charles Thomas",0,17,2,0
+0,"Urbini, Sig. Roberto",0,20,2,0
+0,"Valvassori, Sig. Ettore Luigi",0,35,2,0
+0,"Vicat, Sig. Alphonse Jean Eugene",0,21,2,0
+0,"Villvarlange, Mr. Pierre Léon Gabriel",0,19,2,0
+0,"Vine, Mr. Herbert Thomas Gordon",0,18,2,0
+0,"Vioni, Sig. Roberto",0,25,2,0
+0,"Voegelin-Dubach, Sig. Johannes",0,35,2,0
+0,"Zanetti, Sig. Minio",0,20,2,0
+0,"Zarracchi, Sig. L.",0,26,2,0
+0,"Abbott, Mr. Ernest Owen",0,21,3,0
+0,"Ahier, Mr. Percy Snowden",0,20,3,0
+0,"Akerman, Mr. Albert Edward",0,31,3,0
+0,"Akerman, Mr. Joseph Francis",0,37,3,0
+0,"Allen, Mr. Frederick",0,17,3,0
+0,"Allen, Mr. George",0,26,3,0
+0,"Allen, Mr. Robert Spencer",0,36,3,0
+0,"Allsop, Mr. Frank Richard",0,41,3,1
+0,"Anderson, Mr. Walter Yuill",0,48,3,0
+1,"Andrews, Mr. Charles Edward",0,19,3,0
+0,"Ashcroft, Mr. Austin Aloysius",0,26,3,0
+0,"Ashe, Mr. Henry Wellesley",0,41,3,0
+0,"Ayling, Mr. Edwin George",0,23,3,0
+0,"Back, Mr. Charles Frederick",0,37,3,1
+1,"Baggott, Mr. Allen Marden",0,28,3,0
+0,"Bagley, Mr. Edward Henry",0,33,3,0
+0,"Bailey, Mr. George Francis",0,36,3,1
+1,"Ball, Mr. Percy",0,19,3,0
+0,"Barker, Mr. Albert Vale",0,19,3,0
+0,"Barker, Mr. Ernest Thomas",0,41,3,0
+0,"Barker, Mr. Reginald Lomond",0,42,3,1
+0,"Barlow, Mr. George",0,36,3,0
+0,"Barnes, Mr. Frederick Charles",0,40,3,0
+0,"Barratt, Mr. Arthur",0,16,3,0
+0,"Barringer, Mr. Arthur William",0,34,3,1
+0,"Barrow, Mr. Charles Henry John Barrow",0,36,3,0
+0,"Barrows, Mr. William",0,32,3,0
+0,"Barton, Mr. Sidney John",0,26,3,0
+0,"Baxter, Mr. Harry Ross",0,53,3,0
+0,"Baxter, Mr. Thomas Ferguson",0,55,3,0
+0,"Bedford, Mr. William Barnett",0,31,3,0
+0,"Beedem, Mr. George Arthur",0,35,3,0
+0,"Beere, Mr. William",0,19,3,0
+0,"Benham, Mr. Fred John",0,30,3,0
+1,"Bennett, Mrs. Mabel",1,33,3,0
+0,"Bessant, Mr. Edward",0,31,3,0
+0,"Best, Mr. Edwin Alfred",0,40,3,1
+0,"Bishop, Mr. Walter Alexander",0,34,3,1
+1,"Bliss, Mrs. Emma",1,45,3,0
+0,"Bochatay, Mr. Alexis Joseph",0,30,3,0
+0,"Bogie, Mr. Norman Leslie",0,59,3,0
+0,"Bond, Mr. William John",0,40,3,1
+0,"Boothby, Mr. Walter Thomas",0,38,3,0
+0,"Boston, Mr. William John",0,33,3,1
+0,"Boughton, Mr. Bernard John",0,24,3,0
+0,"Boyd, Mr. John",0,37,3,0
+0,"Boyes, Mr. John Henry",0,36,3,1
+0,"Bradshaw, Mr. John Albert Perkin",0,43,3,0
+0,"Brewster, Mr. George Henry",0,52,3,1
+1,"Bride, Mr. Harold Sydney",0,22,3,1
+0,"Bristow, Mr. Harry",0,38,3,0
+0,"Bristow, Mr. Robert Charles",0,31,3,0
+0,"Brookman, Mr. John Cress",0,28,3,0
+0,"Broome, Mr. Athol Frederick",0,31,3,0
+0,"Broom, Mr. Herbert George",0,33,3,1
+1,"Brown, Mr. Edward",0,34,3,1
+0,"Brown, Mr. Walter James",0,41,3,1
+0,"Buckley, Mr. H. E.",0,34,3,0
+0,"Bulley, Mr. Henry Ashburnham",0,22,3,0
+0,"Bull, Mr. Walter Edward",0,37,3,0
+0,"Bunnell, Mr. Wilfred James",0,21,3,1
+1,"Burgess, Mr. Charles",0,18,3,0
+0,"Burke, Mr. Richard Edward",0,30,3,1
+1,"Burke, Mr. William",0,31,3,1
+1,"Burrage, Mr. Arthur Victor Edwards",0,20,3,0
+0,"Burr, Mr. Ewart Sydenham",0,29,3,0
+0,"Butterworth, Mr. John",0,23,3,0
+0,"Butt, Mr. Robert Henry",0,22,3,0
+0,"Byrne, Mr. James Edward",0,45,3,0
+0,"Campbell, Mr. Donald S.",0,25,3,0
+0,"Carney, Mr. William",0,31,3,0
+0,"Cartwright, Mr. James Edward",0,33,3,1
+0,"Casswill, Mr. Charles",0,34,3,0
+1,"Caton, Miss. Annie",1,33,3,0
+0,"Caunt, Mr. William Ewart",0,28,3,0
+0,"Cave, Mr. Herbert",0,39,3,1
+0,"Cecil, Mr. Charles Thomas",0,21,3,0
+1,"Chapman, Mr. Joseph Charles",0,32,3,0
+0,"Charman, Mr. John James",0,25,3,0
+0,"Cheverton, Mr. William Frederick",0,28,3,1
+0,"Chitty, Mr. Archibald George",0,29,3,0
+0,"Chitty, Mr. George Henry",0,50,3,0
+0,"Christmas, Mr. Herbert Harry",0,34,3,0
+0,"Coleman, Mr. Albert Edward",0,29,3,0
+1,"Colgan, Mr. E. Joseph",0,33,3,0
+1,"Collins, Mr. John",0,17,3,0
+0,"Conway, Mr. Percy Walter",0,25,3,1
+0,"Cook, Mr. Gilbert William",0,32,3,0
+0,"Coombs, Mr. Charles Augustus",0,45,3,0
+0,"Corben, Mr. Ernest Theodore",0,27,3,0
+0,"Cox, Mr. William Denton",0,30,3,0
+1,"Crafter, Mr. Frederick Horace",0,20,3,0
+1,"Crawford, Mr. Alfred George",0,43,3,1
+0,"Crispin, Mr. William",0,33,3,0
+0,"Crisp, Mr. Albert Hector",0,39,3,1
+0,"Crosbie, Mr. John Borthwick",0,45,3,0
+1,"Crowe, Mr. George Frederick",0,30,3,0
+0,"Crumplin, Mr. Charles George Chandler",0,35,3,1
+1,"Cullen, Mr. Charles James",0,49,3,1
+1,"Cunningham, Mr. Andrew Orr",0,38,3,1
+1,"Daniels, Mr. Sidney Edward",0,18,3,0
+0,"Dashwood, Mr. William George",0,18,3,0
+0,"Davies, Mr. Gordon Raleigh",0,32,3,1
+0,"Davies, Mr. Robert J.",0,26,3,1
+0,"Davis, Mr. John",0,29,3,1
+0,"Dean, Mr. George H.",0,19,3,0
+0,"Deeble, Mr. Alfred Arnold",0,35,3,1
+0,"Derrett, Mr. Arthur Henry",0,29,3,1
+0,"Deslandes, Mr. Percival Stainer",0,38,3,0
+0,"Dinenage, Mr. James Richard",0,49,3,0
+0,"Dodd, Mr. George Charles",0,44,3,1
+0,"Dolby, Mr. Joseph",0,39,3,1
+0,"Donoghue, Mr. Frank (?Thomas)",0,35,3,1
+0,"Doughty, Mr. Walter Thomas",0,22,3,0
+0,"Dunford, Mr. William",0,48,3,0
+0,"Dyer, Mr. William Henry",0,33,3,0
+0,"Edbrooke, Mr. Francis Samuel Jacob",0,23,3,0
+0,"Ede, Mr. George Bulkeley",0,23,3,0
+0,"Edge, Mr. Frederick William",0,39,3,0
+0,"Edwards, Mr. Charles Essex",0,39,3,0
+0,"Egg, Mr. William Henry",0,48,3,0
+1,"Ellis, Mr. John Bertie",0,29,3,0
+0,"Ennis, Mr. Walter",0,34,3,0
+1,"Etches, Mr. Henry Samuel",0,43,3,1
+0,"Evans, Mr. George Richard",0,27,3,1
+0,"Fairall, Mr. Henry Charles",0,38,3,1
+0,"Farenden, Mr. Ernest John",0,22,3,1
+1,"Faulkner, Mr. William Stephen",0,37,3,1
+0,"Fellowes, Mr. Alfred James",0,29,3,1
+0,"Feltham, Mr. George William",0,42,3,0
+0,"Finch, Mr. Henry Herman",0,19,3,0
+0,"Fletcher, Mr. Percy William",0,26,3,1
+1,"Foley, Mr. Wilfred Cyril",0,22,3,0
+0,"Ford, Mr. Ernest",0,33,3,0
+0,"Ford, Mr. Francis",0,44,3,0
+0,"Fox, Mr. William Thomas",0,27,3,0
+0,"Franklin, Mr. Alan Vincent",0,28,3,0
+0,"Freeman, Mr. Ernest Edward Samuel",0,45,3,1
+0,"Geddes, Mr. Richard Charles",0,32,3,0
+1,"Gibbons, Mr. Jacob William",0,36,3,0
+0,"Giles, Mr. John Robert",0,32,3,0
+0,"Gill, Mr. Joseph Stanley",0,38,3,1
+0,"Gill, Mr. Patrick",0,38,3,0
+1,"Gold, Mrs. Jane Kate Coulson",1,45,3,0
+0,"Gollop, Mr. F.",0,28,3,0
+0,"Goshawk, Mr. Alfred James",0,40,3,1
+1,"Gregson, Miss. Mary",1,45,3,0
+0,"Gunn, Mr. Joseph Alfred",0,30,3,0
+1,"Guy, Mr. Elgar John",0,29,3,0
+0,"Gwinn, Mr. William Logan",0,37,3,0
+1,"Halford, Mr. Walter Stamford",0,22,3,0
+0,"Hall, Mr. Frank Alfred James",0,41,3,0
+0,"Hamblyn, Mr. Ernest William",0,47,3,0
+0,"Hamilton, Mr. Ernest",0,25,3,1
+0,"Harding, Mr. Alfred John",0,21,3,0
+1,"Hardwick, Mr. Reginald",0,21,3,0
+1,"Hardy, Mr. John",0,40,3,1
+0,"Harris, Mr. Charles William",0,19,3,0
+0,"Harris, Mr. Clifford Henry",0,17,3,0
+0,"Harris, Mr. Edward Matthew",0,17,3,0
+1,"Harrison, Mr. Aragõa Drummond",0,40,3,0
+1,"Hart, Mr. John Edward",0,32,3,0
+1,"Hartnell, Mr. Fred",0,21,3,0
+0,"Hatch, Mr. Hugh",0,23,3,0
+0,"Hawkesworth, Mr. James",0,52,3,0
+0,"Hawkesworth, Mr. William Walter",0,43,3,0
+0,"Hayter, Mr. Arthur",0,45,3,1
+0,"Heinen, Mr. Joseph Dominichus",0,30,3,0
+0,"Hendy, Mr. Edward Martin",0,40,3,1
+0,"Hensford, Mr. Herbert George Ernest",0,26,3,0
+0,"Hewitt, Mr. Thomas",0,37,3,1
+0,"Hill, Mr. H. P.",0,36,3,0
+0,"Hill, Mr. James Colston",0,43,3,1
+0,"Hinckley, Mr. George Herbert",0,40,3,0
+0,"Hine, Mr. William Edward",0,36,3,0
+0,"Hiscock, Mr. Sydney George",0,25,3,0
+0,"Hoare, Mr. Leonard James",0,19,3,1
+0,"Hogg, Mr. Charles William",0,43,3,0
+0,"Hogue, Mr. E.",0,22,3,0
+0,"Holland, Mr. Thomas",0,28,3,1
+0,"Holloway, Mr. Sidney",0,24,3,0
+0,"Hopkins, Mr. Frederick William",0,15,3,0
+0,"House, Mr. William John",0,38,3,1
+0,"Howell, Mr. Arthur Albert",0,31,3,1
+0,"Hughes, Mr. William Thomas",0,34,3,0
+0,"Humby, Mr. Frederick Charles",0,18,3,0
+0,"Humphreys, Mr. Humphrey",0,32,3,0
+0,"Hutchinson, Mr. James",0,31,3,0
+1,"Hyland, Mr. James Leo",0,19,3,0
+0,"Ide, Mr. Harry John",0,31,3,0
+0,"Ingrouille, Mr. Henry",0,21,3,0
+0,"Ings, Mr. William Ernest",0,20,3,0
+0,"Jackson, Mr. Cecil",0,22,3,1
+0,"Janaway, Mr. William Frank",0,35,3,1
+0,"Jenner, Mr. Thomas Henry (Harry)",0,55,3,1
+0,"Jensen, Mr. Charles Valdemar",0,25,3,0
+1,"Jessop, Miss. Violet Constance",1,24,3,0
+1,"Johnston, Mr. James",0,41,3,1
+0,"Jones, Mr. Albert Hugh Brabner",0,17,3,0
+0,"Jones, Mr. Arthur Ernest",0,37,3,0
+0,"Jones, Mr. Harry Owen G.",0,29,3,0
+0,"Jones, Mr. Victor Reginald",0,21,3,0
+1,"Joughin, Mr. Charles John",0,32,3,1
+1,"Keen, Mr. Percy Edward",0,30,3,0
+0,"Kelland, Mr. Thomas",0,18,3,0
+0,"Kennell, Mr. Charles",0,30,3,0
+0,"Kerley, Mr. William Thomas",0,28,3,0
+0,"Ketchley, Mr. Henry",0,36,3,1
+0,"Kieran, Mr. Edgar Michael",0,34,3,0
+0,"Kieran, Mr. James William",0,35,3,0
+0,"King, Mr. Alfred John Moffett",0,18,3,0
+0,"King, Mr. Ernest Waldron",0,28,3,0
+0,"King, Mr. G.",0,20,3,0
+0,"Kingscote, Mr. William Ford",0,48,3,0
+0,"Kirkaldy, Mr. Thomas Benjamin",0,36,3,0
+0,"Kitching, Mr. Arthur Alfred",0,31,3,0
+0,"Klein, Mr. Herbert",0,33,3,0
+1,"Knight, Mr. George",0,49,3,0
+0,"Knight, Mr. Leonard George",0,21,3,0
+0,"Lacey, Mr. Bertie William",0,20,3,0
+0,"Lake, Mr. William",0,46,3,1
+0,"Lane, Mr. Albert Edward",0,34,3,0
+0,"Latimer, Mr. Andrew",0,55,3,1
+1,"Lavington, Miss. Elizabeth",1,40,3,0
+0,"Lawrence, Mr. Arthur",0,36,3,1
+0,"Leader, Mr. Archibald",0,22,3,0
+1,"Leather, Mrs. Elizabeth Mary",1,50,3,0
+1,"Lee, Mr. Henry Reginald",0,29,3,0
+0,"Lefebvre, Mr. Paul Georges",0,35,3,0
+0,"Leonard, Mr. Matthew",0,25,3,1
+0,"Levett, Mr. George Alfred",0,26,3,1
+1,"Lewis, Mr. Arthur Ernest Read",0,27,3,0
+0,"Light, Mr. Charles Edward",0,24,3,0
+1,"Littlejohn, Mr. Alexander James",0,40,3,1
+0,"Lloyd, Mr. Humphrey",0,41,3,1
+0,"Locke, Mr. A.",0,33,3,0
+0,"Longmuir, Mr. John Dickson",0,20,3,0
+0,"Lovell, Mr. John",0,37,3,0
+1,"Lucas, Mr. William Watson",0,31,3,1
+0,"Lydiatt, Mr. Charles",0,45,3,0
+0,"Mabey, Mr. John Charles",0,24,3,0
+0,"MacKie, Mr. George William",0,34,3,0
+0,"Major, Mr. Thomas Edgar",0,36,3,1
+0,"Mantle, Mr. Roland Frederick",0,40,3,0
+0,"March, Mr. John Starr",0,50,3,0
+0,"Marks, Mr. James",0,27,3,0
+0,"Marriott, Mr. John William",0,21,3,0
+1,"Marsden, Miss. Evelyn",1,28,3,0
+1,"Martin, Mrs. Annie Martha",1,39,3,0
+1,"Maynard, Mr. Isaac Hiram",0,31,3,1
+0,"Maytum, Mr. Alfred",0,53,3,1
+0,"McCarthy, Mr. Frederick James",0,38,3,0
+0,"McCawley, Mr. Thomas W.",0,36,3,1
+0,"McElroy, Mr. Hugh Walter",0,37,3,0
+0,"McGrady, Mr. James",0,17,3,0
+1,"McKay, Mr. Charles Donald",0,30,3,1
+1,"McLaren, Mrs. Hypatia",1,40,3,0
+1,"McMicken, Mr. Arthur",0,23,3,1
+0,"McMicken, Mr. Benjamin Tucker",0,21,3,1
+0,"McMullin, Mr. John Richard",0,36,3,1
+0,"McMurray, Mr. William",0,44,3,1
+0,"Mellor, Mr. Arthur",0,34,3,0
+0,"Middleton, Mr. Mark Victor",0,28,3,0
+1,"Mills, Mr. Christopher",0,51,3,0
+0,"Mishellany, Mr. Abraham Mansoor",0,53,3,1
+0,"Moore, Mr. Alfred Ernest",0,39,3,0
+0,"Morgan (Bird), Mr. Charles Frederick",0,42,3,0
+1,"Morris, Mr. Frank Herbert",0,28,3,1
+0,"Moss, Mr. William",0,36,3,1
+0,"Müller, Mr. Ludwig",0,37,3,0
+0,"Mullin, Mr. Thomas",0,20,3,0
+1,"Neal, Mr. Bentley Harold",0,26,3,0
+0,"Nicholls, Mr. Sidney",0,39,3,0
+0,"Nichols, Mr. Arthur",0,46,3,0
+1,"Nichols, Mr. Walter Henry",0,35,3,0
+0,"O'Connor, Mr. Thomas Peter",0,44,3,1
+0,"Olive, Mr. Ernest Roskelly",0,27,3,0
+0,"Orpet, Mr. Walter Hayward",0,31,3,0
+0,"Orr, Mr. James",0,39,3,0
+0,"Osborne, Mr. William Edward",0,32,3,1
+0,"Owen, Mr. Lewis",0,43,3,0
+0,"Pacey, Mr. Reginald lvan",0,17,3,0
+0,"Paintin, Mr. James Arthur",0,29,3,0
+0,"Parsons, Mr. Edward",0,37,3,0
+0,"Parsons, Mr. Richard Henry",0,18,3,0
+0,"Pearce, Mr. Alfred Emest",0,24,3,0
+1,"Pearcey, Mr. Albert Victor",0,25,3,0
+0,"Pennal, Mr. Thomas Frederick Cohen",0,34,3,0
+0,"Penny, Mr. William Farr",0,31,3,0
+0,"Penrose, Mr. John Poole",0,49,3,1
+0,"Perkins, Mr. Laurence Alexander",0,22,3,0
+0,"Perren, Mr. William Charles",0,48,3,0
+0,"Perriton, Mr. Hubert Prouse",0,32,3,0
+0,"Petty, Mr. Edwin Henry",0,25,3,0
+1,"Pfropper, Mr. Richard Paul Jozef",0,30,3,0
+1,"Phillimore, Mr. Harold Charles William",0,23,3,1
+0,"Phillips, Mr. John George",0,25,3,1
+0,"Platt, Mr. Wilfred George",0,18,3,0
+0,"Pook, Mr. Percy Robert",0,36,3,0
+0,"Porteus, Mr. Thomas Henry",0,34,3,0
+1,"Port, Mr. Frank",0,22,3,0
+1,"Prentice, Mr. Frank Winnold",0,23,3,0
+1,"Prichard, Mrs. Alice Maud",1,36,3,0
+0,"Prideaux, Mr. John Arthur (Jack)",0,23,3,0
+1,"Prior, Mr. Harold John Arnold",0,21,3,0
+0,"Proctor, Mr. Charles",0,46,3,1
+0,"Pryce, Mr. Charles William",0,23,3,0
+1,"Pugh, Mr. Alfred",0,20,3,0
+0,"Puzey, Mr. John Edward",0,44,3,1
+0,"Randall, Mr. Frank Henry",0,29,3,0
+0,"Ransom, Mr. James Augustus",0,50,3,1
+0,"Rattenbury, Mr. William Henry",0,38,3,1
+1,"Ray, Mr. Frederick Dent",0,32,3,1
+0,"Reed, Mr. Thomas Charles Prowse",0,55,3,0
+0,"Revell, Mr. William James Francis",0,31,3,1
+0,"Rice, Mr. John Reginald",0,25,3,0
+0,"Rice, Mr. Percy",0,19,3,0
+0,"Ricks, Mr. Cyril Gordon",0,22,3,0
+0,"Ridout, Mr. Walter George",0,30,3,0
+0,"Rimmer, Mr. Gilbert",0,29,3,0
+0,"Roberton, Mr. George Edward",0,19,3,0
+0,"Roberts, Mr. Frank John",0,37,3,1
+0,"Roberts, Mr. Hugh H.",0,40,3,1
+1,"Roberts, Mrs. Mary Kezia",1,41,3,0
+0,"Robinson, Mr. James William",0,30,3,0
+1,"Robinson, Mrs. Annie",1,41,3,0
+0,"Rogers, Mr. Edward James William",0,31,3,0
+0,"Rogers, Mr. Michael",0,27,3,0
+1,"Ross, Mr. Horace Leopold",0,36,3,0
+0,"Rowe, Mr. Edgar Maurice",0,31,3,1
+1,"Rule, Mr. Samuel James",0,58,3,1
+0,"Russell, Mr. Boysie Richard",0,17,3,0
+0,"Ryan, Mr. Thomas",0,28,3,0
+1,"Ryerson, Mr. William Edwy",0,33,3,0
+0,"Samuel, Mr. Owen Wilmore",0,47,3,0
+0,"Saunders, Mr. D. E.",0,26,3,0
+1,"Savage, Mr. Charles Joseph",0,23,3,0
+0,"Scott, Mr. John",0,20,3,0
+0,"Scovell, Mr. Robert",0,55,3,0
+0,"Sedunary, Mr. Samuel Francis",0,25,3,0
+1,"Seward, Mr. Wilfred Deable",0,25,3,0
+0,"Shaw, Mr. Henry",0,42,3,0
+0,"Shea, Mr. John Joseph",0,40,3,1
+0,"Siebert, Mr. Sidney Conrad",0,29,3,1
+1,"Simmons, Mr. Andrew George James",0,31,3,0
+0,"Simmons, Mr. Frederick Charles",0,24,3,0
+0,"Simmons, Mr. William Simon C.",0,37,3,0
+0,"Sivier, Mr. William",0,23,3,0
+0,"Skinner, Mr. Edward",0,41,3,1
+0,"Slight, Mr. Harry John",0,33,3,0
+0,"Slight, Mr. William Henry James",0,36,3,1
+1,"Sloan, Miss. Mary",1,28,3,0
+1,"Slocombe, Mrs. Maude Louise",1,30,3,0
+0,"Smillie, Mr. John",0,29,3,1
+1,"Smith, Miss. Katherine Elizabeth",1,45,3,0
+0,"Smith, Mr. Charles Edwin",0,40,3,0
+0,"Smith, Mr. Charles Henry James",0,38,3,0
+0,"Smith, Mr. F.",0,20,3,1
+0,"Smith, Mr. James William",0,24,3,0
+0,"Smith, Mr. John Richard Jago",0,35,3,0
+0,"Smith, Mr. Reginald George",0,33,3,0
+0,"Snape, Mrs. Lucy Violet",1,22,3,0
+0,"Stagg, Mr. John Henry",0,38,3,0
+1,"Stap, Miss. Sarah Agnes",1,47,3,0
+0,"Stebbings, Mr. Sydney Frederick",0,36,3,1
+1,"Stewart, Mr. John",0,28,3,1
+0,"Stone, Mr. Edmund",0,33,3,0
+0,"Stone, Mr. Edward Thomas",0,29,3,0
+0,"Stroud, Mr. Edward Alfred Orlando",0,19,3,0
+0,"Stroud, Mr. Harry John",0,35,3,0
+0,"Strugnell, Mr. John Herbert",0,34,3,1
+0,"Stubbings, Mr. Harry Robert",0,31,3,1
+0,"Swan, Mr. William",0,48,3,1
+0,"Symonds, Mr. John Crane",0,45,3,1
+0,"Talbot, Mr. George Frederick Charles",0,20,3,0
+0,"Taylor, Mr. Bernard Cuthbert",0,22,3,0
+0,"Taylor, Mr. Leonard",0,19,3,0
+0,"Taylor, Mr. William John",0,32,3,0
+1,"Terrell, Mr. Frank",0,27,3,0
+0,"Teuton, Mr. Thomas Moore",0,35,3,0
+0,"Thaler, Mr. Montague Donald",0,17,3,0
+1,"Theissinger, Mr. Alfred",0,46,3,0
+1,"Thomas, Mr. Albert Charles",0,23,3,0
+1,"Thomas, Mr. Benjamin James",0,30,3,1
+0,"Thompson, Mr. Herbert Henry",0,25,3,1
+0,"Thorley, Mr. William",0,39,3,0
+0,"Thorn, Mr. Harry",0,25,3,0
+1,"Toms, Mr. Fred",0,29,3,1
+0,"Topp, Mr. Thomas",0,28,3,0
+0,"Toshack, Mr. James Adamson",0,30,3,0
+0,"Turner, Mr. George Frederick",0,42,3,0
+0,"Turner, Mr. Leopold Olerenshaw",0,28,3,1
+0,"Veal, Mr. Thomas Henry Edom",0,38,3,0
+0,"Wake, Mr. Percy",0,37,3,0
+0,"Wallis, Mrs. Catherine Jane",1,36,3,0
+0,"Walpole, Mr. James",0,48,3,1
+0,"Walsh, Miss. Catherine",1,32,3,0
+0,"Ward, Mr. Edward",0,34,3,1
+0,"Ward, Mr. Percy Thomas",0,40,3,1
+1,"Ward, Mr. William",0,37,3,0
+0,"Wareham, Mr. Robert Arthur",0,37,3,1
+0,"Warwick, Mr. Tom",0,26,3,0
+0,"Watson, Mr. William Albert",0,15,3,0
+0,"Weatherston, Mr. Thomas Herbert",0,25,3,1
+0,"Webb, Mr. Brook Holding",0,50,3,1
+1,"Weikman, Mr. Augustus Henry",0,52,3,0
+0,"Welch, Mr. William Harold",0,21,3,0
+1,"Wheat, Mr. Joseph Thomas",0,30,3,1
+1,"Wheelton, Mr. Edneser Edward",0,29,3,1
+1,"Whiteley, Mr. Thomas Arthur",0,18,3,0
+0,"White, Mr. Arthur",0,37,3,0
+0,"White, Mr. Edward Joseph",0,27,3,0
+0,"White, Mr. Leonard Lisle Oliver",0,32,3,1
+0,"Whitford, Mr. Alfred Henry",0,39,3,0
+1,"Widgery, Mr. Isaac George",0,37,3,0
+0,"Williams, Mr. Arthur John",0,42,3,0
+1,"Williams, Mr. Walter John",0,28,3,0
+0,"Williamson, Mr. James Bertram",0,35,3,0
+0,"Willis, Mr. William",0,59,3,0
+0,"Willsher, Mr. William Aubrey",0,34,3,0
+1,"Windebank, Mr. Alfred Edgar",0,38,3,0
+0,"Winser, Mr. Rowland",0,36,3,0
+1,"Witter, Mr. James William Cheetham",0,31,3,0
+0,"Wittman, Mr. Henry",0,39,3,0
+0,"Wood, Mr. James Thomas",0,49,3,0
+0,"Woody, Mr. Oscar Scott",0,41,3,0
+0,"Wormald, Mr. Henry Frederick Charles",0,45,3,0
+0,"Wrapson, Mr. Frederick Bernard",0,19,3,1
+0,"Wright, Mr. Frederick",0,24,3,0
+1,"Wright, Mr. William",0,40,3,0
+1,"Yearsley, Mr. Harry",0,40,3,0
