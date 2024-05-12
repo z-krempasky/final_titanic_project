@@ -27,41 +27,41 @@ def executeModel(p_model, c_model, gender, age, passenger_crew, class_type, chil
     # Format Inputs
     # Gender
     if (gender == 'Male'):
-        gender = 0
+        use_gender = 0
     else:
-        gender = 1
+        use_gender = 1
     
     # Class Type
     if (class_type == "First Class"):
-        class_type = 1
+        use_class_type = 1
     elif (class_type == "Second Class"):
-        class_type = 2
+        use_class_type = 2
     else: #Third Class
-        class_type = 3
+        use_class_type = 3
 
     # Crew Type
     if (crew_pos == "Deck Hand"):
-        crew_pos = 0
+        use_crew_pos = 0
     elif (crew_pos == "Engineering Crew"):
-        crew_pos = 1
+        use_crew_pos = 1
     elif (crew_pos == "Restaurant Staff"):
-        crew_pos = 2
+        use_crew_pos = 2
     else: #Vict...
-        crew_pos = 3
+        use_crew_pos = 3
 
     # Combine/Convert Parents/Children
-    parents = int(parents) + int(children)
+    use_parents = int(parents) + int(children)
 
     # Convert Siblings/Spouses
-    siblings = int(siblings)
+    use_siblings = int(siblings)
 
     # Convert Age
-    age = float(age)
+    use_age = float(age)
 
     # Passenger Model
     if (passenger_crew == "Passenger"):
         # Assemble Data
-        data = np.array([[class_type, gender, age, siblings, parents, 25, 0]])
+        data = np.array([[use_class_type, use_gender, use_age, use_siblings, use_parents, 25, 0]])
         # Make Predictions
         try:
             prediction = p_model.predict(data, verbose=0)
@@ -72,7 +72,7 @@ def executeModel(p_model, c_model, gender, age, passenger_crew, class_type, chil
 
     else: # Crew Model
         # Assemble Data
-        data = np.array([[gender, age, crew_pos, 0]])
+        data = np.array([[use_gender, use_age, use_crew_pos, 0]])
         # Make Predictions
         try:
             prediction = c_model.predict(data)
@@ -90,8 +90,8 @@ def getIntro(name, gender, age, position, cabin, children, parents, sibling, cre
     kidString = "0"
     positionString = "0"
 
-    StartString = " Welcome to the Titanic! Your name is " + name + " and you are a " + age + " year old " + gender + ", excited for the journey ahead. \n" \
-                  " As you walk toward the wonderful ship you can't help but gaze at the massive ship that you will soon board. \n" \
+    StartString = " Welcome to the Titanic! Your name is " + name + " and you are a " + age + " year old " + gender + ", excited for the journey ahead." \
+                  " As you walk toward the wonderful ship you can't help but gaze at the massive ship that you will soon board." \
                   " You feel overjoyed being able to go on such a ship for its maiden voyage"
 
     if int(parents) == 1:
@@ -129,29 +129,28 @@ def getIntro(name, gender, age, position, cabin, children, parents, sibling, cre
         sibString += "."
 
     if position == "Passenger":
-        positionString = "\n \nAs a passenger of the Titanic, you look forward to a relaxing journey with no issues whatsoever." \
-                         "\nRight when you are done thinking, you reach the line to board the ship." \
-                         "\nAfter a very long wait, you finally set you feet on the Titanic." \
-                         "\nYou decide to go to your " + cabin  + " cabin to rest for the time being. " \
-                         "\nAs you enter your cabin you drop your things and go straight to your bed, exhausted." \
-                         "\nYou decide to take a nap. After all, nothing bad can happen on this monster of a ship." \
-                         "\nAs you drift to sleep, you dream of ice cold cocktails and a nice dip in the sea."
+        positionString = "\n \n \nAs a passenger of the Titanic, you look forward to a relaxing journey with no issues whatsoever." \
+                         " Right when you are done thinking, you reach the line to board the ship." \
+                         " After a very long wait, you finally set you feet on the Titanic." \
+                         " You decide to go to your " + cabin  + " cabin to rest for the time being. " \
+                         " As you enter your cabin you drop your things and go straight to your bed, exhausted." \
+                         " You decide to take a nap. After all, nothing bad can happen on this monster of a ship." \
+                         " As you drift to sleep, you dream of ice cold cocktails and a nice dip in the sea."
 
     if position == "Crew":
-        positionString = "\n \nAs a member of the "+ crew_pos +  " crew on the Titanic, you are a little worried about this journey." \
-                         "\nBut as you reach the boarding site for crew members, you realize that your worries are unfounded." \
-                         "\nAfter all, this beast of a ship is practically unsinkable. The only issue would be the passengers if they got too rowdy." \
-                         "\nYou walk toward the boarding ramp, getting in line to board the vessel." \
-                         "\nAfter a short wait you set foot on ship and head to the crew quarters where you will be staying for the time being." \
-                         "\nWhen you reach there you set your stuff down and mentally prepare for the sudden influx of passengers that will soon board." \
-                         "\nYou are thankful that passengers do not board until tomorrow, and have the evening to prepare." \
-                         "\nYou decide to go to bed early, to properly prepare for the coming voyage." \
-                         "\nAs you drift to sleep, you dream of ice cold cocktails and a nice dip in the sea."
+        positionString = "\n \n \nAs a member of the "+ crew_pos +  " crew on the Titanic, you are a little worried about this journey." \
+                         " But as you reach the boarding site for crew members, you realize that your worries are unfounded." \
+                         " After all, this beast of a ship is practically unsinkable. The only issue would be the passengers if they got too rowdy." \
+                         " You walk toward the boarding ramp, getting in line to board the vessel." \
+                         " After a short wait you set foot on ship and head to the crew quarters where you will be staying for the time being." \
+                         " When you reach there you set your stuff down and mentally prepare for the sudden influx of passengers that will soon board." \
+                         " You are thankful that passengers do not board until tomorrow, and have the evening to prepare." \
+                         " You decide to go to bed early, to properly prepare for the coming voyage." \
+                         " As you drift to sleep, you dream of ice cold cocktails and a nice dip in the sea."
 
     outString = StartString + parentString + sibString + kidString + positionString
 
     return outString
-
 
 def getOutro(name, gender, age, passenger_crew, cabin, children, status, siblings, crew_pos):
     if status==0 and gender=="Male":
@@ -203,7 +202,7 @@ def update_ui(selection):
         siblings_entry.grid_remove()
         children_entry.grid_remove()
         parents_entry.grid_remove()
-        crew_pos_menu.grid(row=5, column=1, sticky="w")
+        crew_pos_menu.grid(row=4, column=1, sticky="w")
     else:
         cabin_menu.grid_remove()
         siblings_entry.grid_remove()
@@ -232,6 +231,14 @@ def submit_persona():
     children = children_entry.get()
     parents = parents_entry.get()
     
+    # Convert empty strings to 0
+    if not siblings:
+        siblings = 0
+    if not children:
+        children = 0
+    if not parents:
+        parents = 0
+
     # Generate Story:
     intro = getIntro(name, gender, age, passenger_crew, cabin, children, parents, siblings, crew_pos)
     
@@ -240,7 +247,7 @@ def submit_persona():
     survived = executeModel(p_model, c_model, gender, age, passenger_crew, cabin, children, parents, siblings, crew_pos)
 
     # Get Outro Text
-    outro=getOutro(name, gender, cabin, age, siblings, children, survived, passenger_crew, crew_pos)
+    outro=getOutro(name, gender, age, passenger_crew, cabin, children, survived, siblings, crew_pos)
     display_output(intro, outro)
 
 # Create main window
